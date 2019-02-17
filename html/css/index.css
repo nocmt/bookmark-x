@@ -106,3 +106,30 @@ main a img {
     margin-top: -4px;
     margin-right: 4px;
 }
+
+
+button{
+    outline: none !important;
+    border: none;
+}
+.btn-login{
+    cursor: pointer;
+    
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, 0.1);
+}
+.btn-login img{
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+}
+.btn-login:hover{
+    background-color: #D3D3D3;
+}
+

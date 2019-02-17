@@ -7,8 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bookmark-x</title>
 
+    <!-- 外部样式 -->
     <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="https://cdn.bootcss.com/twitter-bootstrap/4.2.1/css/bootstrap-reboot.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/limonte-sweetalert2/7.33.1/sweetalert2.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css?v=0.1">
 </head>
 
@@ -18,17 +20,17 @@
         <div class="search center">
             <input id="search-field" type="text" name="search-field" onkeypress="return search(event)" placeholder="输入关键字" />
         </div>
-        <!-- 此处借鉴了某柠檬，但是两者无竞争性。 -->
         <ul class="menu center">
-            <li class="menu-action" data-id="1" onclick="switchTab('1');" onmousemove="switchTab('1');">综合</li>
-            <li data-id="2" onclick="switchTab('2');" onmousemove="switchTab('2');">购物</li>
-            <li data-id="3" onclick="switchTab('3');" onmousemove="switchTab('3');">资讯</li>
-            <li data-id="4" onclick="switchTab('4');" onmousemove="switchTab('4');">社交</li>
-            <li data-id="5" onclick="switchTab('5');" onmousemove="switchTab('5');">影音</li>
-            <li data-id="6" onclick="switchTab('6');" onmousemove="switchTab('6');">生活</li>
-            <li data-id="7" onclick="switchTab('7');" onmousemove="switchTab('7');">工具</li>
-            <li data-id="8" onclick="switchTab('8');" onmousemove="switchTab('8');">IT</li>
-            <li data-id="9" onclick="switchTab('9');" onmousemove="switchTab('9');">趣站</li>
+            <li class="menu-action" data-id="1">综合</li>
+            <li data-id="2">购物</li>
+            <li data-id="3">资讯</li>
+            <li data-id="4">社交</li>
+            <li data-id="5">影音</li>
+            <li data-id="6">生活</li>
+            <li data-id="7">工具</li>
+            <li data-id="8">IT</li>
+            <li data-id="9">趣站</li>
+
         </ul>
     </header>
 
@@ -41,10 +43,13 @@
             <img width="20" src="img/favicon.ico" alt="">
             <span class="text">Awesome_APIs/README-zh.md at master · TonnyL/Awesome_APIs · GitHub</span>
         </a>
-        </main>
-                
-    <script src="js/ajax.js?v=0.1"></script>            
+    </main>
+    
+    <button id="btn-login" class="btn-login" type="button" title="登录同步" onclick="login()"><img src="img/log-in.png" alt=""></button>
+
+    <script src="js/ajax.js?v=0.1"></script>
     <script src="js/index.js?v=0.1"></script>
+    <script src="https://cdn.bootcss.com/limonte-sweetalert2/7.33.1/sweetalert2.min.js"></script>
 </body>
 
 </html>
