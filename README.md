@@ -20,7 +20,7 @@ Provide efficient bookmark management
 4. 延迟hover事件 与点击事件冲突
 5. 登录功能 2019.02.18
 6. 后台开发-- Django or Django-Restful?
-   
+
 预览：
 
 ![](20190218110337.png)
