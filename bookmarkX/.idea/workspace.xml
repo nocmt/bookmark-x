@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16d65610-a86c-4529-ab7f-f25f6cc17ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/homepage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookmarkX/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmarkX/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookmarkX/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmarkX/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/homepage/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/homepage/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/homepage/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/homepage/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/homepage/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/homepage/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/homepage/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,10 +21,34 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bookmarkX/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="288">
+              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
               <folding>
                 <element signature="e#314#323#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookmarkX/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="29" />
+              <folding>
+                <element signature="e#633#665#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/homepage/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#633#665#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,17 +69,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/bookmarkX/urls.py" />
+        <option value="$PROJECT_DIR$/apps/homepage/urls.py" />
         <option value="$PROJECT_DIR$/bookmarkX/settings.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -75,6 +97,27 @@
               <item name="bookmarkX" type="b2602c69:ProjectViewProjectNode" />
               <item name="bookmarkX" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bookmarkX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookmarkX" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookmarkX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookmarkX" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookmarkX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookmarkX" type="462c0819:PsiDirectoryNode" />
+              <item name="bookmarkX" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookmarkX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookmarkX" type="462c0819:PsiDirectoryNode" />
+              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -87,6 +130,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Xms\开源项目\bookmark-x\bookmarkX\apps\homepage" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Xms\开源项目\bookmark-x\bookmarkX\extra_apps" />
       <recent name="D:\Xms\开源项目\bookmark-x\bookmarkX\apps" />
@@ -140,22 +186,23 @@
       <option name="presentableId" value="Default" />
       <updated>1550546914739</updated>
       <workItem from="1550546921301" duration="984000" />
-      <workItem from="1550547958918" duration="717000" />
+      <workItem from="1550547958918" duration="1700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1701000" />
+    <option name="totallyTimeSpent" value="2684000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22788204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="manage.py@bookmarkX" weight="0.3286119" />
+      <window_info anchor="bottom" id="manage.py@bookmarkX" visible="true" weight="0.30311614" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -178,10 +225,39 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bookmarkX/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarkX/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="e#633#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/homepage/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#633#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/bookmarkX/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="288">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
           <folding>
             <element signature="e#314#323#0" expanded="true" />
           </folding>

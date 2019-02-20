@@ -19,7 +19,7 @@ from apps.homepage import urls
 
 
 urlpatterns = [
-    path('/', admin.site.urls),
+    path('/', urls),
     path('admin/', admin.site.urls),
     path('api-auth/', include('extra_apps.rest_framework.urls'))
 ]
