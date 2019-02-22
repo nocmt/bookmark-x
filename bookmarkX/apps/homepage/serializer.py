@@ -1,9 +1,15 @@
 from rest_framework import serializers
 
-from .models import Users
+from .models import Bookmarks, Sort
 
 
-class UsersSerializer(serializers.ModelSerializer):
+class BookmarksSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Users
-        fields = ("id", "password", "addTime")
+        model = Bookmarks
+        fields = ('id', 'user', 'title', 'link', 'imgUrl', 'sort', 'addTime', 'isInvalid')
+
+
+class SortsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Sort
+        fields = ('id', 'user', 'name', 'addTime', 'isEnable')
