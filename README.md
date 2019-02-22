@@ -19,7 +19,13 @@ Provide efficient bookmark management
 3. 请求缓存，避免重复请求 2019.02.17
 4. 延迟hover事件 与点击事件冲突
 5. 登录功能 2019.02.18
-6. 后台开发-- Django or Django-Restful?
+6. 后台开发-- Django-Restful
+    * 基本的get请求 2019.02.22
+
+问题：
+
+1. APi设计？
+2. 权限问题？
 
 预览：
 

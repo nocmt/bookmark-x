@@ -6,21 +6,49 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import generics
 
-from .models import Users
-from .serializer import UsersSerializer
+from .models import Bookmarks, Sort
+from .serializer import BookmarksSerializer, SortsSerializer
+
+from django.http import QueryDict
+from rest_framework.request import Request
+def get_parameter_dic(request, *args, **kwargs):
+    if isinstance(request, Request) == False:
+        return {}
+
+    query_params = request.query_params
+    if isinstance(query_params, QueryDict):
+        query_params = query_params.dict()
+    result_data = request.data
+    if isinstance(result_data, QueryDict):
+        result_data = result_data.dict()
+
+    if query_params != {}:
+        return query_params
+    else:
+        return result_data
 
 # 使用APIView
-class TestView(APIView):
+class BookmarksView(APIView):
     def get(self, request, format=None):
-        user = Users.objects.all()
-        serializer = UsersSerializer(user, many=True)
+        params = get_parameter_dic(request)
+        sort = Sort.objects.filter(name=params.get('sort'))[0]
+        bookmarks = Bookmarks.objects.filter(sort=sort)
+        serializer = BookmarksSerializer(bookmarks, many=True)
         return Response(serializer.data)
+    #
+    # def post(self, request, format=None):
+    #     data = request.data
+    #
+    #     serializer = BookmarksSerializer(data=request.data)
+    #
+    #     if serializer.is_valid():
+    #         serializer.save()
+    #         return Response(serializer.data, status=status.HTTP_201_CREATED)
+    #     else:
+    #         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-    def post(self, request, format=None):
-        serializer = UsersSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        else:
-            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
+class SortsView(APIView):
+    def get(self, request, format=None):
+        serializer = SortsSerializer(Sort.objects.all(), many=True)
+        return Response(serializer.data)
