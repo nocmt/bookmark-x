@@ -21,7 +21,7 @@ Provide efficient bookmark management
 5. 登录功能 2019.02.18
 6. 后台开发-- Django-Restful
     * 基本的get请求 2019.02.22
-    * 外键中文名称问题 2019.02.22 
+    * 外键中文名称问题 2019.02.22
 
 问题：
 

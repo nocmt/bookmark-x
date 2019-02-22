@@ -32,7 +32,7 @@ class Bookmarks(models.Model):
     # 表示外键关联到用户表,当用户表删除了该条数据, 分类表中删除
     user = models.ForeignKey(Users, null=True, blank=True, on_delete=models.CASCADE, verbose_name="用户")
     title = models.CharField(max_length=50, verbose_name="名称")
-    link = models.CharField(max_length=100, verbose_name="链接")
+    link = models.CharField(max_length=500, verbose_name="链接")
     imgUrl = models.CharField(max_length=300, blank=True, null=True, verbose_name="封面")
     sort = models.ForeignKey(Sort, null=True, blank=True, on_delete=models.CASCADE, verbose_name="分类")
     addTime = models.DateTimeField(default=timezone.now, verbose_name="时间")
@@ -44,3 +44,7 @@ class Bookmarks(models.Model):
 
     def __str__(self):
         return self.title
+
+    @property
+    def sortName(self):
+        return self.sort.name
