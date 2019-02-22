@@ -30,7 +30,6 @@ def get_parameter_dic(request, *args, **kwargs):
     else:
         return result_data
 
-
 # 使用APIView
 class BookmarksView(APIView):
     def get(self, request, format=None):
