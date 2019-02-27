@@ -3,5 +3,6 @@ from . import views
 
 urlpatterns = [
     path('bookmarks', views.BookmarksView.as_view(), name='bookmarks'),
-    path('sorts', views.SortsView.as_view(), name='sorts')
+    path('sorts', views.SortsView.as_view(), name='sorts'),
+    path('login', views.UserLoginAPIView.as_view(), name='login')
 ]
