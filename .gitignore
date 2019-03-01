@@ -15,7 +15,8 @@ downloads/
 eggs/
 .eggs/
 .vscode/
-.idea/
+bookmarkX/.idea/
+Flask-x/.idea/
 lib/
 lib64/
 parts/
