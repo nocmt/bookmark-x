@@ -23,4 +23,7 @@ class bookmark(Resource):
         return {'link': bookmark_dict['link']}
 
 
+
+
+
 rapi.add_resource(bookmark, '/bookmark')
