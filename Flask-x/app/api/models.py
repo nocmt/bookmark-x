@@ -1,5 +1,6 @@
-from App import db, bcrypt
 from datetime import datetime
+
+from app import db, bcrypt
 
 # ROLE_USER = 0
 # ROLE_ADMIN = 1
@@ -49,7 +50,7 @@ class Sort(db.Model):
     time = db.Column(db.Date, default=datetime.now)
 
     def __repr__(self):
-        return f'<Bookmark {self.name}>'
+        return f'<Sort {self.name}>'
 
 
 # 书签
@@ -63,7 +64,7 @@ class Bookmark(db.Model):
     time = db.Column(db.Date, default=datetime.now)
     sort_id = db.Column(db.Integer, db.ForeignKey('sort.id'))
     sort = db.relationship('Sort', backref=db.backref('articles'))
-    isInvalid = db.Column(db.Boolean, default=False, index=True)
+    exist = db.Column(db.Boolean, default=True, index=True)
 
     def __repr__(self):
         return f'<Bookmark {self.name}>'

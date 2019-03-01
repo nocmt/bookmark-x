@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="16d65610-a86c-4529-ab7f-f25f6cc17ae5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Flask-x/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Flask-x/App/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/App/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Flask-x/App/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/App/api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Flask-x/App/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/App/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask-x/App/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask-x/App/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/app/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask-x/App/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/app/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask-x/App/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/app/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask-x/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/homepage/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="474">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -238,15 +240,15 @@
       <workItem from="1550819111314" duration="8579000" />
       <workItem from="1550887622463" duration="7446000" />
       <workItem from="1551166822911" duration="1920000" />
-      <workItem from="1551411118817" duration="1724000" />
+      <workItem from="1551411118817" duration="2332000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26730000" />
+    <option name="totallyTimeSpent" value="27338000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24128686" />
@@ -448,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/homepage/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="474">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>

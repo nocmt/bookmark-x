@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from config import SQLALCHEMY_DATABASE_URI, SQLALCHEMY_TRACK_MODIFICATIONS
 from flask_bcrypt import Bcrypt
 
-bcrypt = Bcrypt() # 初始化加密模块
+bcrypt = Bcrypt()  # 初始化加密模块
 db = SQLAlchemy()  # 初始化数据库模块
 
 
