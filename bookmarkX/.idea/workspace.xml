@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16d65610-a86c-4529-ab7f-f25f6cc17ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/homepage/migrations/0002_auto_20190223_1054.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/homepage/migrations/0003_auto_20190223_1057.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/homepage/permissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask-x/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask-x/App/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/App/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask-x/App/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/App/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask-x/App/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/App/api/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/homepage/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/homepage/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/homepage/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/homepage/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/homepage/migrations/0002_sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/homepage/migrations/0003_auto_20190220_1701.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/homepage/migrations/0004_sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/homepage/migrations/0005_bookmarks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/homepage/migrations/0006_auto_20190222_1800.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/homepage/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/homepage/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/homepage/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/homepage/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/homepage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/homepage/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/homepage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/homepage/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmarkX/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmarkX/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +55,25 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/homepage/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,17 +114,17 @@
         <option value="$PROJECT_DIR$/bookmarkX/urls.py" />
         <option value="$PROJECT_DIR$/apps/homepage/permissions.py" />
         <option value="$PROJECT_DIR$/apps/homepage/admin.py" />
-        <option value="$PROJECT_DIR$/apps/homepage/models.py" />
         <option value="$PROJECT_DIR$/apps/homepage/urls.py" />
         <option value="$PROJECT_DIR$/bookmarkX/settings.py" />
         <option value="$PROJECT_DIR$/apps/homepage/serializer.py" />
         <option value="$PROJECT_DIR$/apps/homepage/views.py" />
+        <option value="$PROJECT_DIR$/apps/homepage/models.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -129,10 +136,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="bookmarkX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookmarkX" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookmarkX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookmarkX" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookmarkX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookmarkX" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookmarkX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookmarkX" type="462c0819:PsiDirectoryNode" />
+              <item name="bookmarkX" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="bookmarkX" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -141,12 +167,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Flask-x" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -210,18 +237,19 @@
       <workItem from="1550547958918" duration="6077000" />
       <workItem from="1550819111314" duration="8579000" />
       <workItem from="1550887622463" duration="7446000" />
-      <workItem from="1551166822911" duration="1408000" />
+      <workItem from="1551166822911" duration="1920000" />
+      <workItem from="1551411118817" duration="1724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24494000" />
+    <option name="totallyTimeSpent" value="26730000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23793566" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24128686" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -351,16 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/homepage/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bookmarkX/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -424,6 +442,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bookmarkX/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/homepage/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

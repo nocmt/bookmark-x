@@ -15,8 +15,8 @@ rapi = rApi(api)
 # 书签
 class bookmark(Resource):
     def get(self):
-        bookmark_dict['sort_name'] = request.values.get('sort_name')
-        return {'hello': bookmark_dict['sort_name']}
+        bookmark_dict['sort_name'] = request.values.get('sort_name', '')
+        return {bookmark_dict['sort_name']}
 
     def post(self):
         bookmark_dict['link'] = request.form['link']
