@@ -14,6 +14,10 @@ dist/
 downloads/
 eggs/
 .eggs/
+vscode/
+.vscode/
+__pycache__/
+.idea/
 lib/
 lib64/
 parts/

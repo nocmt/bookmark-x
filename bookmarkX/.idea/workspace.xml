@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16d65610-a86c-4529-ab7f-f25f6cc17ae5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Flask-x/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Flask-x/App/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Flask-x/App/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/app/api/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Flask-x/App/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/app/api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Flask-x/App/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/app/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Flask-x/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask-x/manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="16d65610-a86c-4529-ab7f-f25f6cc17ae5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
