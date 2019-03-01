@@ -14,9 +14,8 @@ dist/
 downloads/
 eggs/
 .eggs/
-/.vscode/
-/__pycache__/
-/.idea/
+.vscode/
+.idea/
 lib/
 lib64/
 parts/
@@ -105,12 +104,3 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-Flask-x/.idea/dataSources.xml
-Flask-x/.idea/dataSources.local.xml
-Flask-x/.idea/workspace.xml
-Flask-x/.idea/workspace.xml
-Flask-x/.idea/workspace.xml
-Flask-x/.idea/dataSources/fe886a06-1f19-400c-aeb1-7f155da2e135.xml
-bookmarkX/.idea/workspace.xml
-Flask-x/.idea/dataSources/fe886a06-1f19-400c-aeb1-7f155da2e135/storage_v2/_src_/schema/main.uQUzAA.meta
-bookmarkX/.idea/workspace.xml
